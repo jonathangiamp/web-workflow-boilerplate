@@ -10,6 +10,7 @@ A simple boilerplate for web project.
   - [Webpack configuration](#webpack-configuration)
   - [Babel configuration](#babel-configuration)
   - [Eslint configuration](#eslint-configuration)
+  - [Jest configuration](#jest-configuration)
 - [Support](#support)
 - [Contributing](#contributing)
 - [Authors](#authors)
@@ -55,6 +56,11 @@ To manual run flowtype :s
 yarn flow
 ```
 
+To manual run jest :s
+```sh
+yarn test
+```
+
 ## Contents
 
 This boilerplate uses:
@@ -62,6 +68,7 @@ This boilerplate uses:
 - [babel](https://babeljs.io/)
 - [eslint](https://eslint.org/)
 - [flow](https://flow.org/)
+- [jest](https://facebook.github.io/jest/)
 
 ### Webpack configuration
 
@@ -93,6 +100,10 @@ This boilerplate uses:
 
 - [airbnb guidelines](https://github.com/airbnb/javascript)
 - [comma-dangle](https://eslint.org/docs/rules/comma-dangle): ["error", "always-multiline"]
+
+### Jest configuration
+
+- [Verbose](https://facebook.github.io/jest/docs/en/configuration.html#verbose-boolean)
 
 ## Support
 

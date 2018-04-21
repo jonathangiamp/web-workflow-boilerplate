@@ -3,6 +3,12 @@
   "parser": "babel-eslint",
   "rules": {
     "strict": 0,
-    "comma-dangle": ["error", "always-multiline"]
+    "comma-dangle": [
+      "error",
+      "always-multiline"
+    ]
   },
+  "plugins": [
+    "jest"
+  ]
 }
